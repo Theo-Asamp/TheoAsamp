@@ -1,0 +1,11 @@
+(for qualifications.html)
+
+HTML provides structure.  Any budding web designer or web developers needs to grasp the concept of the 'big' three. These are the core open standard skills that will enable to build beautiful looking, dynamic web pages as well as mobile applications.
+
+Web designers often talk about 'semantic markup'. Semantics is the study of meaning. The heading tags are great examples of semantic markup as they are tags with meaning. That is a <h1> is heading one – the most important heading in the document.
+
+Lists are a very popular way of presenting information and with the addition of CSS can be styled to produce the likes of menu bars. The HTML for a list requires two elements <ul> (Unordered List) used to define the list itself and <li> (List Item) used to declare each item in the list. The <ul> is the parent of the <li>. That is the <li> tags need to nested inside the <ul>.
+
+
+
+

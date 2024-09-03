@@ -1,0 +1,17 @@
+(for work-experience.html)
+
+Styling
+
+The first role of CSS in the styling of the page.  This includes font faces, sizes and colours as well as background images and colours
+
+Positioning Content
+
+The box model and the CSS float and position properies give designers the necessary tools to lay out web pages.
+
+The box model controls an elements border, margin and padding.  These can be set various ways.  The float property can be used with 'normal flow' to position content either left or right within a page.
+
+Advanced Styling
+
+With CSS3 a new range of styling options have opened up.
+
+These allow designs to have rounded corners, drop shadows, text shadows and even to be animated purely through CSS.
