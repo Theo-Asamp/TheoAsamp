@@ -1,0 +1,99 @@
+body {
+background-color: rgb(10,25,48);
+}
+img {
+    border-radius: 10px;
+    max-height: max-content;
+}
+.list{
+    text-align: left;
+}
+
+nav{
+    padding-left: 50px;
+    padding-top: 10px;
+}
+.navbar {
+    text-decoration: none;
+    border-radius: 10px;
+    border-bottom: 10px;
+    color: rgb(136,146,175);
+    padding-left: 15px;
+    padding-top: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+#nav1:hover {
+    color: rgb(229, 9, 20)
+}
+
+#navname {
+    font-weight: bold;
+}
+.MainPage {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(136,146,175);
+    font-size: 45px;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translateX(-50% ) translateY(-50%);
+    padding-bottom: 5px;
+}
+
+.MainPage h1 {
+    margin-bottom: 4px;
+}
+
+.MainPage h2 {
+    font-weight: lighter;
+    margin-top: 7px;
+    margin-bottom: 10px;
+    font-size: 45px;
+}
+
+.MainPage p {
+    font-family:'Courier New', Courier, monospace;
+    font-size: 24px;
+    margin-top: 9px;
+}
+.name1 {
+    color: rgb(229, 9, 20);
+}
+
+section {
+    height: 95vh;
+}
+
+.About {
+    color: rgb(136,146,175);
+    font-family: sans-serif;
+
+}
+
+.About h2 {
+    font-size: 46px;
+    text-align: center;
+}
+
+.About p {
+    font-size: 21px;
+    padding-left: 300px;
+    padding-right: 200px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Experience {
+    color: rgb(136,146,175);
+    font-family: sans-serif;
+
+}
+
+.Experience h2 {
+    font-size: 46px;
+    text-align: center;
+}
