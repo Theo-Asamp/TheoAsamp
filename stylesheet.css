@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 body {
     background-color: rgb(10, 25, 48);
     margin: 0;
@@ -53,9 +56,12 @@ nav {
     color: rgb(136, 146, 175);
 }
 
-.MainPage h1 {
+.text {
     font-size: 45px;
     font-weight: 700;
+}
+.red{
+    color: (229, 9, 20)
 }
 
 .MainPage h2 {
@@ -122,7 +128,7 @@ h2 {
     display: inline-block;
     margin-top: 10px;
     text-decoration: none;
-    color: rgb(229, 9, 20);
+    color: rgb(231, 231, 231);
 }
 
 /* Form Styles */
