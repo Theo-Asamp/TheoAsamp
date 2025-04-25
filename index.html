@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="icon" type="image/x-icon" href="T LOGO.jpg">
+    <title>Theo Asamp</title>
+    <meta name="description" content="Theo Asamp's portfolio. Software Engineer from London with experience in Python, JavaScript, and more.">
+    <meta name="keywords" content="Software Engineer, Portfolio, JavaScript, Python, HTML, CSS, Projects, Developer">
+    <meta property="og:title" content="Theo Asamp - Software Engineer">
+    <meta property="og:description" content="Check out my projects and experience.">
+    <meta property="og:image" content="portfolio-screenshot.jpg">
+</head>
+<body>
+    <header>
+        <nav>
+            <a class="navbar" id="navname" href="#">Theo Asamp</a>
+            <div class="navbar-links">
+                <a href="#main-page" class="navbar">Home</a>
+                <a href="#sec-one" class="navbar">About</a>
+                <a href="#sec-two" class="navbar">Projects</a>
+                <a href="#sec-three" class="navbar">Experience/Study</a>
+                <a href="#sec-four" class="navbar">Skills</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="main-page" id="main-page">
+            <div class="MainPage">
+                <div class="text"></div>
+                <h2>I love coding...</h2>
+                <p>I'm a software engineering student from London, United Kingdom. Fueled by curiosity and passion, I’m on a journey to turn ideas into reality, one line of code at a time. Future full-time software engineer in the making!</p>
+                <a href="#sec-five" class="contact-button">Contact Me</a> 
+            </div>
+        </section>
+        
+        <section id="sec-one">
+            <div class="About">
+                <h2>About Me</h2>
+                <p>I am currently a <strong>Software Engineering Student</strong> at <span class="name1">Sheffield Hallam University</span>. I am also taking a C# Microsoft course and have completed multiple freeCodeCamp certifications.</p>
+                <p>Some of the technologies I work with and am studying:</p>
+                <ul class="bpstyle">
+                    <li>SQL</li>
+                    <li>JavaScript</li>
+                    <li>HTML</li>
+                    <li>Java</li>
+                    <li>CSS</li>
+                    <li>Python</li>
+                    <li>C#</li>
+                </ul>
+                <p>Outside of studying, I'm interested in sports and go to the gym. I also play a lot of video games, Intersting fact im a self-taught bass guitar player.</p>
+            </div>
+        </section>
+
+        <section id="sec-two">
+            <div class="Projects">
+                <h2>Projects</h2>
+                <div class="project">
+                    <h3>Responsive Web Portfolio</h3>
+                    <p>Created a personal portfolio website using HTML, CSS, and JavaScript to showcase coding projects and photography.</p>
+                    <ul>
+                        <li>Created a personal portfolio website using HTML, CSS, and JavaScript to showcase coding projects and photography.</li>
+                        <li>Designed a responsive interface that adapts to different screen sizes.</li>
+                        <li>Tech Stack: HTML, CSS, JavaScript</li>
+                    </ul>
+                    <a href="https://github.com/Theo-Asamp" target="_blank" class="project-link">View on GitHub</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="sec-three">
+            <div class="Experience_Study">
+                <h2>Experience/Studies</h2>
+                <div class="Skills"></div>
+                    <h3>Sheffield Hallam University</h3>
+                    <p><em>september 2024 – Present</em></p>
+                    <ul class="bpstyle">
+                        <li>Relevant Coursework: C# Programming, Web Development (HTML, CSS, JavaScript), Database Design & Management (SQL, MySQL), and System Modelling</li>
+                        <li>Gaining hands-on experience in designing, developing, and testing software applications using C#.</li>
+                        <li>Engaged in full-stack web development projects, building responsive and user-friendly websites.</li>
+                        <li>Developing strong problem-solving skills through collaborative projects that emphasize team-based software engineering practices.</li>
+                    </ul>
+                </div>
+                <div class="Skills">
+                    <h3>Safety Steward - IPM</h3>
+                    <p><em>2023 – Present (Part-time)</em></p>
+                    <ul class="bpstyle">
+                        <li>Ensured safety at football stadiums by monitoring crowd behaviour and conducting inspections for potential hazards.</li>
+                        <li>Collaborated with teams to address incidents and improve spectator experiences.</li>
+                        <li>Developed strong communication and problem-solving skills essential for teamwork in fast-paced environments. </li>
+                    </ul>
+                </div>
+                <div class="Skills">
+                    <h3>Recreational Assistant - GLL</h3>
+                    <p><em>August 2024 - Present</em></p>
+                    <ul class="bpstyle">
+                        <li>Oversaw the safety of pool patrons, performed rescues, and provided first aid as required.</li>
+                        <li>Worked on organizing recreational activities and maintaining center operations.</li>
+                        <li>Enhanced customer service and time management skills through interaction with visitors and management responsibilities.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="sec-four">
+            <div class="Skills">
+                <h2>Skills</h2>
+                <ul class="bpstyle">
+                    <li>Programming Languages: Python, Java, HTML, CSS, JavaScript</li>
+                    <li>Web Development: Responsive Web Design (Certified by freeCodeCamp)</li>
+                    <li>Version Control: GitHub</li>
+                    <li>Software Tools: Visual Studio Code, Figma</li>
+                    <li>CSS</li>
+                    <li>Databases: MySQL</li>
+                    <li>Other Skills: Business Acumen, Graphic Design, Leadership</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="sec-five">
+            <div class="Contact">
+                <h2>Contact Me</h2>
+                <p>If you have any questions or would like to collaborate, feel free to reach out!</p>
+                <form id="contact-form" action="mailto:tasampong25@gmail.com" method="get">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required placeholder="Your Name">
+                    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required placeholder="Your Email">
+                    
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" required placeholder="Your Message"></textarea>
+                    
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Theo Asamp. All rights reserved.</p>
+        <div class="socials">
+            <a href="https://github.com/Theo-Asamp" target="_blank">GitHub</a>
+            <a href="https://www.linkedin.com/feed/update/urn:li:activity:7246560758052888577/" target="_blank">LinkedIn</a>
+        </div>
+    </footer>
+    <script src="java.js"></script>
+</body>
+</html>
