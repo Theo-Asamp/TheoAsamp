@@ -1,12 +1,14 @@
 html{
     scroll-behavior: smooth;
 }
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+
 body {
-    background-color: rgb(10, 25, 48);
-    margin: 0;
-    padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.6;
+  background-color: rgb(20, 30, 60); ;
 }
+
 
 /* Navigation Styles */
 nav {
