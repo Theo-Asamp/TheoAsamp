@@ -1,151 +1,283 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="stylesheet.css">
-    <link rel="icon" type="image/x-icon" href="T LOGO.jpg">
-    <title>Theo Asamp</title>
-    <meta name="description" content="Theo Asamp's portfolio. Software Engineer from London with experience in Python, JavaScript, and more.">
-    <meta name="keywords" content="Software Engineer, Portfolio, JavaScript, Python, HTML, CSS, Projects, Developer">
-    <meta property="og:title" content="Theo Asamp - Software Engineer">
-    <meta property="og:description" content="Check out my projects and experience.">
-    <meta property="og:image" content="portfolio-screenshot.jpg">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Theo Asampong — Software Engineering Portfolio</title>
+  <meta name="description" content="Theo Asampong — Software Engineering student. Projects: Task Manager, Mortgage Quotation System, Freshers App (React Native), Portfolio." />
+  <link rel="icon" href="t-logo.jpg" />
+  <!-- Google Font (optional) -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="stylesheet.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <a class="navbar" id="navname" href="#">Theo Asamp</a>
-            <div class="navbar-links">
-                <a href="#main-page" class="navbar">Home</a>
-                <a href="#sec-one" class="navbar">About</a>
-                <a href="#sec-two" class="navbar">Projects</a>
-                <a href="#sec-three" class="navbar">Experience/Study</a>
-                <a href="#sec-four" class="navbar">Skills</a>
-            </div>
-        </nav>
-    </header>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#home">Theo Asamp</a>
 
-    <main>
-        <section class="main-page" id="main-page">
-            <div class="MainPage">
-                <div class="text"></div>
-                <h2>I love coding...</h2>
-                <p>I'm a software engineering student from London, United Kingdom. Fueled by curiosity and passion, I’m on a journey to turn ideas into reality, one line of code at a time. Future full-time software engineer in the making!</p>
-                <a href="#sec-five" class="contact-button">Contact Me</a> 
-            </div>
-        </section>
-        
-        <section id="sec-one">
-            <div class="About">
-                <h2>About Me</h2>
-                <p>I am currently a <strong>Software Engineering Student</strong> at <span class="name1">Sheffield Hallam University</span>. I am also taking a C# Microsoft course and have completed multiple freeCodeCamp certifications.</p>
-                <p>Some of the technologies I work with and am studying:</p>
-                <ul class="bpstyle">
-                    <li>SQL</li>
-                    <li>JavaScript</li>
-                    <li>HTML</li>
-                    <li>Java</li>
-                    <li>CSS</li>
-                    <li>Python</li>
-                    <li>C#</li>
-                </ul>
-                <p>Outside of studying, I'm interested in sports and go to the gym. I also play a lot of video games, Intersting fact im a self-taught bass guitar player.</p>
-            </div>
-        </section>
+      <button id="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span class="hamburger"></span>
+      </button>
 
-        <section id="sec-two">
-            <div class="Projects">
-                <h2>Projects</h2>
-                <div class="project">
-                    <h3>Responsive Web Portfolio</h3>
-                    <p>Created a personal portfolio website using HTML, CSS, and JavaScript to showcase coding projects and photography.</p>
-                    <ul>
-                        <li>Created a personal portfolio website using HTML, CSS, and JavaScript to showcase coding projects and photography.</li>
-                        <li>Designed a responsive interface that adapts to different screen sizes.</li>
-                        <li>Tech Stack: HTML, CSS, JavaScript</li>
-                    </ul>
-                    <a href="https://github.com/Theo-Asamp" target="_blank" class="project-link">View on GitHub</a>
-                </div>
-            </div>
-        </section>
+      <nav id="site-nav" class="site-nav" aria-label="Main navigation">
+        <ul>
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#experience" class="nav-link">Experience</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
-        <section id="sec-three">
-            <div class="Experience_Study">
-                <h2>Experience/Studies</h2>
-                <div class="Skills"></div>
-                    <h3>Sheffield Hallam University</h3>
-                    <p><em>september 2024 – Present</em></p>
-                    <ul class="bpstyle">
-                        <li>Relevant Coursework: C# Programming, Web Development (HTML, CSS, JavaScript), Database Design & Management (SQL, MySQL), and System Modelling</li>
-                        <li>Gaining hands-on experience in designing, developing, and testing software applications using C#.</li>
-                        <li>Engaged in full-stack web development projects, building responsive and user-friendly websites.</li>
-                        <li>Developing strong problem-solving skills through collaborative projects that emphasize team-based software engineering practices.</li>
-                    </ul>
-                </div>
-                <div class="Skills">
-                    <h3>Safety Steward - IPM</h3>
-                    <p><em>2023 – Present (Part-time)</em></p>
-                    <ul class="bpstyle">
-                        <li>Ensured safety at football stadiums by monitoring crowd behaviour and conducting inspections for potential hazards.</li>
-                        <li>Collaborated with teams to address incidents and improve spectator experiences.</li>
-                        <li>Developed strong communication and problem-solving skills essential for teamwork in fast-paced environments. </li>
-                    </ul>
-                </div>
-                <div class="Skills">
-                    <h3>Recreational Assistant - GLL</h3>
-                    <p><em>August 2024 - Present</em></p>
-                    <ul class="bpstyle">
-                        <li>Oversaw the safety of pool patrons, performed rescues, and provided first aid as required.</li>
-                        <li>Worked on organizing recreational activities and maintaining center operations.</li>
-                        <li>Enhanced customer service and time management skills through interaction with visitors and management responsibilities.</li>
-                    </ul>
-                </div>
-            </div>
-        </section>
+  <main>
+    <!-- Hero -->
+    <section id="home" class="hero-section">
+      <div class="container hero-inner">
+        <div class="hero-left">
+          <div class="eyebrow">Software Engineering Student • Sheffield Hallam University</div>
+          <h1 class="hero-title">
+            <span id="typed-text" class="typed-text" aria-live="polite"></span>
+            <span class="cursor" aria-hidden="true">|</span>
+          </h1>
+          <p class="hero-sub">
+            I build clean, reliable web and mobile apps — full-stack and React Native. Currently working on a University Freshers App. Available for placement & internships.
+          </p>
+          <div class="hero-ctas">
+            <a class="btn primary" href="#projects">View Projects</a>
+            <a class="btn ghost" href="Theo-Asampong-CV.pdf" download>Download CV</a>
+          </div>
 
-        <section id="sec-four">
-            <div class="Skills">
-                <h2>Skills</h2>
-                <ul class="bpstyle">
-                    <li>Programming Languages: Python, Java, HTML, CSS, JavaScript</li>
-                    <li>Web Development: Responsive Web Design (Certified by freeCodeCamp)</li>
-                    <li>Version Control: GitHub</li>
-                    <li>Software Tools: Visual Studio Code, Figma</li>
-                    <li>CSS</li>
-                    <li>Databases: MySQL</li>
-                    <li>Other Skills: Business Acumen, Graphic Design, Leadership</li>
-                </ul>
-            </div>
-        </section>
-
-        <section id="sec-five">
-            <div class="Contact">
-                <h2>Contact Me</h2>
-                <p>If you have any questions or would like to collaborate, feel free to reach out!</p>
-                <form id="contact-form" action="mailto:tasampong25@gmail.com" method="get">
-                    <label for="name">Name:</label>
-                    <input type="text" id="name" name="name" required placeholder="Your Name">
-                    
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" name="email" required placeholder="Your Email">
-                    
-                    <label for="message">Message:</label>
-                    <textarea id="message" name="message" rows="5" required placeholder="Your Message"></textarea>
-                    
-                    <button type="submit">Send Message</button>
-                </form>
-            </div>
-        </section>
-    </main>
-
-    <footer>
-        <p>&copy; 2024 Theo Asamp. All rights reserved.</p>
-        <div class="socials">
-            <a href="https://github.com/Theo-Asamp" target="_blank">GitHub</a>
-            <a href="https://www.linkedin.com/feed/update/urn:li:activity:7246560758052888577/" target="_blank">LinkedIn</a>
+          <div class="social-line">
+            <a href="https://github.com/Theo-Asamp" target="_blank" rel="noopener">GitHub</a>
+            <a href="https://www.linkedin.com/in/theodore-asampong-75b1ab291/" target="_blank" rel="noopener">LinkedIn</a>
+          </div>
         </div>
-    </footer>
-    <script src="java.js"></script>
+
+        <div class="hero-right">
+          <img src="IMG_3858.jpeg" alt="Theo Asamp portrait" class="profile-photo">
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section">
+      <div class="container grid about-grid">
+        <div class="card about-card">
+          <h2>About Me</h2>
+          <p>I'm Theodore (Theo), a Software Engineering student from London. I enjoy building user-centered web & mobile applications. Currently learning C#, React Native, and strengthening backend skills with PHP and MySQL.</p>
+
+          <ul class="about-list">
+            <li>Sheffield Hallam University — BSc (Hons) Software Engineering (Sept 2024 – Present)</li>
+            <li>freeCodeCamp certifications & Microsoft C# study</li>
+            <li>National team swimmer (Ghana) — discipline, teamwork & resilience</li>
+          </ul>
+        </div>
+
+        <div class="card tech-card">
+          <h3>Tech & Tools</h3>
+          <div class="tech-grid">
+            <span class="tech">JavaScript</span>
+            <span class="tech">React Native</span>
+            <span class="tech">C#</span>
+            <span class="tech">PHP</span>
+            <span class="tech">HTML & CSS</span>
+            <span class="tech">MySQL / SQL</span>
+            <span class="tech">Git / GitHub</span>
+            <span class="tech">VS Code</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="section">
+      <div class="container">
+        <h2 class="section-title">Selected Projects</h2>
+
+        <div class="projects-grid">
+          <!-- Project 1 -->
+          <article class="project-card">
+            <img src="project-taskmanager.jpg" alt="Task Management System screenshot" class="project-thumb">
+            <div class="project-body">
+              <h3>Task Management System</h3>
+              <p>Full-stack PHP & MySQL CRUD app for creating, assigning and tracking tasks across teams. Emphasis on responsive UI and database efficiency.</p>
+              <div class="project-tags">PHP • MySQL • HTML • CSS • JavaScript</div>
+              <div class="project-links">
+                <a class="btn small" href="https://github.com/Theo-Asamp/Task-Management-System" target="_blank" rel="noopener">GitHub</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 2 -->
+          <article class="project-card">
+            <img src="project-mortgage.jpg" alt="Mortgage Quotation System screenshot" class="project-thumb">
+            <div class="project-body">
+              <h3>Mortgage Quotation System</h3>
+              <p>Interactive mortgage quoting tool that calculates options in real-time using frontend JavaScript and secure PHP backend.</p>
+              <div class="project-tags">PHP • MySQL • JavaScript</div>
+              <div class="project-links">
+                <a class="btn small" href="https://github.com/Theo-Asamp/Mortgage-Quotation-System" target="_blank" rel="noopener">GitHub</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 3 -->
+          <article class="project-card">
+            <img src="project-freshers.jpg" alt="University Freshers App screenshot" class="project-thumb">
+            <div class="project-body">
+              <h3>University Freshers App (Ongoing)</h3>
+              <p>Leading front-end in React Native for a cross-platform app to help new students find events, join groups and access campus resources.</p>
+              <div class="project-tags">React Native • JavaScript</div>
+              <div class="project-links">
+                <a class="btn small" href="https://github.com/Theo-Asamp/freshers-app" target="_blank" rel="noopener">GitHub</a>
+                <a class="btn small ghost" href="#" target="_blank" rel="noopener">Design</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section id="experience" class="section">
+      <div class="container">
+        <h2 class="section-title">Experience & Study</h2>
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-date">Sept 2024 — Present</div>
+            <div class="timeline-content">
+              <h4>Sheffield Hallam University</h4>
+              <p>BSc (Hons) Software Engineering — modules include Web Development, C#, Database Design and Software Engineering Practicals.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-date">2023 — Present</div>
+            <div class="timeline-content">
+              <h4>Safety Steward — IPM</h4>
+              <p>Stadium safety, crowd monitoring and incident response. Built teamwork and situational leadership skills in busy environments.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-date">Aug 2024 — Present</div>
+            <div class="timeline-content">
+              <h4>Recreational Assistant — GLL</h4>
+              <p>Responsible for pool safety, customer service and organising activities; maintained high standards in a public setting.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="section">
+      <div class="container">
+        <h2 class="section-title">Skills</h2>
+        <div class="skills-grid">
+          <div class="skill">
+            <div class="skill-header">
+              <strong>HTML & CSS</strong>
+              <span>90%</span>
+            </div>
+            <div class="skill-bar"><div class="skill-fill" style="width:90%"></div></div>
+          </div>
+
+          <div class="skill">
+            <div class="skill-header">
+              <strong>JavaScript</strong>
+              <span>75%</span>
+            </div>
+            <div class="skill-bar"><div class="skill-fill" style="width:75%"></div></div>
+          </div>
+
+          <div class="skill">
+            <div class="skill-header">
+              <strong>React Native</strong>
+              <span>40%</span>
+            </div>
+            <div class="skill-bar"><div class="skill-fill" style="width:40%"></div></div>
+          </div>
+
+          <div class="skill">
+            <div class="skill-header">
+              <strong>C#</strong>
+              <span>60%</span>
+            </div>
+            <div class="skill-bar"><div class="skill-fill" style="width:60%"></div></div>
+          </div>
+
+          <div class="skill">
+            <div class="skill-header">
+              <strong>SQL / MySQL</strong>
+              <span>60%</span>
+            </div>
+            <div class="skill-bar"><div class="skill-fill" style="width:60%"></div></div>
+          </div>
+
+          <div class="skill">
+            <div class="skill-header">
+              <strong>PHP</strong>
+              <span>50%</span>
+            </div>
+            <div class="skill-bar"><div class="skill-fill" style="width:50%"></div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section">
+      <div class="container contact-grid">
+        <div class="card contact-card">
+          <h2>Contact Me</h2>
+          <p>If you'd like to collaborate or discuss a placement opportunity, send me a message — I reply quickly.</p>
+
+          <!-- Replace the action with your Formspree endpoint or EmailJS -->
+          <form id="contact-form" action="https://formspree.io/f/your-form-id" method="POST">
+            <label for="name">Name</label>
+            <input id="name" name="name" required placeholder="Your name">
+
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" required placeholder="you@example.com">
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required placeholder="Tell me about the role or project"></textarea>
+
+            <div class="form-actions">
+              <button type="submit" class="btn primary">Send Message</button>
+              <a class="btn ghost" href="mailto:tasampong25@gmail.com">Email Directly</a>
+            </div>
+            <p class="form-note">Or connect on <a href="https://www.linkedin.com/in/theo-asamp" target="_blank" rel="noopener">LinkedIn</a>.</p>
+          </form>
+        </div>
+
+        <aside class="card contact-info">
+          <h3>Quick Info</h3>
+          <p><strong>Email:</strong> <a href="mailto:tasampong25@gmail.com">tasampong25@gmail.com</a></p>
+          <p><strong>Location:</strong> London, United Kingdom</p>
+          <p><strong>Open to:</strong> Software Engineering placements & internships</p>
+
+          <h4>Interests</h4>
+          <p>Swimming, fitness, bass guitar, photography</p>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; <span id="year"></span> Theo Asamp. All rights reserved.</p>
+      <div class="footer-links">
+        <a href="https://github.com/Theo-Asamp" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://www.linkedin.com/in/theo-asamp" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
 </body>
 </html>
